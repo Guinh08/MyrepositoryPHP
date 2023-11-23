@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;500&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: black;
+    height: auto;
+    width: 100vw;
+}
+
+.Lyric {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50pt;
+    background-color: #BE5656;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin-left: 225px;
+    padding: 0 100px;
+}
+
+.wrapper {
+
+    display: flex;
+    height: 250px;
+    width: 250px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+
+}
+
+.al {
+    overflow: hidden;
+    color: white;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+
+}
+
+.text {
+    width: 200px;
+    z-index: 1;
+    color: white;
+    position: fixed;
+    left: 30px;
+    top: 300px;
+}
+
+p {
+    padding: 10px 0;
+    max-width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30pt;
+}
+
+a {
+    text-transform: uppercase;
+    font-size: 30pt;
+    text-decoration: none;
+    color: #F5D152;
+    font-family: 'Poppins', sans-serif;
+}

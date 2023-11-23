@@ -1,0 +1,151 @@
+@import url('https://fonts.cdnfonts.com/css/braton-composer');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;500&family=Poppins&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #ffb2c4;
+
+}
+
+.main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 60vw 40vw;
+
+}
+
+.img1 {
+    box-shadow: 0px 0px 19px -1px rgba(36, 30, 36, 1);
+    border-radius: 5%;
+    border: 3px solid white;
+    height: 250px;
+    width: 350px;
+}
+
+.image {
+    align-items: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    display: flex;
+    font-family: 'Braton Composer', sans-serif;
+    font-size: 70pt;
+    align-items: center;
+}
+
+.main-2 {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    background-color: #2B7AE1;
+
+}
+
+.t1 {
+    color: #2B7AE1;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    font-family: 'Braton Composer', sans-serif;
+
+}
+
+table {
+    width: 100vw;
+    height: auto;
+}
+
+tbody {
+    flex-direction: column;
+    height: 79vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+td {
+    vertical-align: bottom;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 5%;
+}
+
+.spotify {
+    border-radius: 5%;
+    width: 200px;
+    height: 200px;
+
+}
+
+.texttable {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20pt;
+    color: #F5D152;
+    border: 0px;
+    height: 10px;
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+
+li {
+    padding-right: 25px;
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    background-color: #f2f2f2;
+}
+
+.menu {
+    align-items: center;
+    list-style: none;
+    display: flex;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.divlogo {
+    padding-left: 25px
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-decoration: none;
+}
